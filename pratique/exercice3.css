@@ -16,12 +16,28 @@ section{
 }
 
 #container{
+    display: flex;
+    
+    
     width: 50%;
     margin: auto;
-    height: 10rem;
+    height: 20rem;
     width: 50rem;
     background-color: white;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+p{
+    width: 70%;
+    height: 20rem;
+    font-size: 1.10rem;
+    padding-top: 7rem;
+    padding-left: 2rem;
+}
+
+img{
+    display: flex;
+    justify-content: flex-end;
 }

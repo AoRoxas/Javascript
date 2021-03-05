@@ -6,7 +6,8 @@ let cp = prompt ("Quel est votre code postal ?");
 let ville = prompt ("Quel est votre ville ?");
 let taille = prompt ("Quel est votre taille (en mètre Ex : 1.70) ?");
 let poids = prompt ("Quel est votre poids (en Kg) ?");
-let resultat = poids / taille**2
+let resultat = Math.round (poids / taille**2)
+
 
 function start(){
     let div = document.getElementById('container');                 

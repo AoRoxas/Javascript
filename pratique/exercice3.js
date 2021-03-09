@@ -12,9 +12,9 @@ let resultat = Math.round (poids / taille**2)
 function start(){
     let div = document.getElementById('container');                 
     let p = div.appendChild(document.createElement("p"));
-    p.appendChild(document.createTextNode(`Nom : ${nom} Prénom : ${prenom} 
-    Age : ${age} Adresse : ${adresse} Code Postal : ${cp} Ville : ${ville}
-    Taille : ${taille}m Poids : ${poids} IMC : ${resultat}`));
+    p.appendChild(document.createTextNode(`Nom : ${nom} • Prénom : ${prenom} •
+    Age : ${age} • Adresse : ${adresse} • Code Postal : ${cp} • Ville : ${ville} •
+    Taille : ${taille}m • Poids : ${poids}Kg • IMC : ${resultat}`));
 }
 
 
